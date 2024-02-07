@@ -50,11 +50,11 @@ const About = () => {
             </a>
           </div>
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-12 w-5/6">
+        <div className="lg:max-w-lg  md:w-18 w-2/6">
           <img 
             className="object-cover object-center rounded w-full"
             alt="hero"
-            src= {require("../images/coding.png")}
+            src= {require("../images/IMG_2152.jpg")}
           />
         </div>
       </div>
