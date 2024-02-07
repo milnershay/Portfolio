@@ -22,7 +22,7 @@ const About = () => {
         setCharIndex(0);
         setTitleIndex((prevIndex) => (prevIndex + 1) % jobTitles.length);
       }
-    }, 100); // Duration for each letter to appear/disappear
+    }, 100); 
 
     return () => clearInterval(interval);
   }, [charIndex, titleIndex, reverseDisplayText]);
@@ -34,7 +34,7 @@ const About = () => {
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hey! I'm Shay.
             <br className="hidden lg:inline-block" />
-            {" "}I am <span className="text-green-500">{displayText}</span>
+            {" "}I am a <span className="text-green-500">{displayText}</span>
           </h1>
           <p className="mb-8 leading-relaxed">
             Currently a 4th year student in BGU, I am very passionate about using technology to solve complex problems 

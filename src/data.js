@@ -30,8 +30,8 @@ export const projects = [
       subtitle: "React, ReactNative & Firebase",
       description:
         "An app that allows you to share your location with your friends on a map and message them",
-      image: require("./images/soduko.PNG"),
-      link: "https://github.com/milnershay/SudokuApp",
+      image: require("./images/mento.png"),
+      link: "https://github.com/milnershay/Mento",
     },
     {
       title: "Wikipedia Search Engine",
