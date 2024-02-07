@@ -47,7 +47,7 @@ export default function Contact() {
         </div>
         <form
           name="contact"
-          netlify
+          method="POST"
           data-netlify="true"
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
           >
