@@ -29,7 +29,7 @@ My personal portfolio webpage is designed to present my skills, projects, and ac
 - **Frontend:** React.js, Tailwind CSS
 - **Icons:** Heroicons
 - **State Management:** React Hooks
-- **Deployment:** TBD 
+- **Deployment:** Netlify 
 
 ## Setup and Installation
 
