@@ -5,42 +5,40 @@ import {projects} from "../data"
 
 export default function Projects() {
     return (
-        <section id="projects" className="text-gray-400 bg-gray-900 body-font">
+        <section id="projects" className="text-light-text bg-light-bg body-font">
             <div className="container px-5 py-10 mx-auto text-center lg:px-40">
                 <div className="flex flex-col w-full mb-20">
-                    <CodeIcon className="mx-auto inline-block w-10 mb-4" />
-                    <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-                        Apps I've built
+                    <CodeIcon className="mx-auto inline-block w-10 mb-4 text-primary" />
+                    <h1 className="sm:text-4xl text-3xl font-medium font-heading mb-4 text-light-text">
+                        Apps I've Built
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                    Hover over the project to see the description, click it to go to github!
+                        Here are some of the projects I'm proud of. Hover for details.
                     </p>
                 </div>
                 <div className="flex flex-wrap -m-4">
-                    {projects.map((project) =>(
-                        <a  href={project.link}
+                    {projects.map((project) => (
+                        <div
                             key={project.image}
-                            className="sm:w-1/2 w-100 p-4" >
+                            className="sm:w-1/2 w-full p-4">
                             <div className="flex relative">
-                             
-                                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                    <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
-                                        {project.subtitle}
-                                    </h2>
-                                    <h1 className="title-font text-lg font-medium text-white mb-3">
-                                        {project.title}
-                                    </h1>
-                                    <p className="leading-relaxed">{project.description}</p>
-                                </div>
                                 <img
                                     alt="gallery"
                                     className="absolute inset-0 w-full h-full object-cover object-center"
                                     src={project.image}
                                 />
+                                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-700 bg-light-bg opacity-0 hover:opacity-90">
+                                    <h2 className="tracking-widest text-sm font-medium text-primary mb-1">
+                                        {project.subtitle}
+                                    </h2>
+                                    <h1 className="font-heading text-lg font-medium text-light-text mb-3">
+                                        {project.title}
+                                    </h1>
+                                    <p className="leading-relaxed">{project.description}</p>
+                                </div>
                             </div>
-                        </a>
+                        </div>
                     ))}
-
                 </div>
             </div>
         </section>
