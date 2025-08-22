@@ -1,55 +1,39 @@
 
 
 export const projects = [
-    {
-      title: "Soccer match predictor",
-      subtitle: "Python & tkinter",
-      description:
-        "An app using four different ML models trained by me to predict the outcome of matches",
-      image: require("./images/soccer.gif"),
-      link: "https://github.com/milnershay/MatchPredictor",
-    },
-    {
-      title: "Hogwarts Invaders",
-      subtitle: "Javascript, HTML & CSS",
-      description:
-        "A webapp chicken invaders like game designed like the series harry potter as part of a web dev course",
-      image: require("./images/potter.gif"),
-      link: "https://github.com/Web-Development-Environments-2023/assignment2-314978370_208646943",
-    },
-    {
-      title: "Soduko game and scanner",
-      subtitle: "Python & OpenCV",
-      description:
-        "A sudoku app that can generate, solve and scan sudoko puzzles!",
-      image: require("./images/soduko.PNG"),
-      link: "https://github.com/milnershay/SudokuApp",
-    },
-    {
-      title: "Location sharing and messaging app",
-      subtitle: "React, ReactNative & Firebase",
-      description:
-        "An app that allows you to share your location with your friends on a map and message them",
-      image: require("./images/mento.png"),
-      link: "https://github.com/milnershay/Mento",
-    },
-    {
-      title: "Wikipedia Search Engine",
-      subtitle: "Python, Flask & GCP",
-      description:
-        "Final project for information retrieval class A search engine working on the wikipedia corups",
-      image: require("./images/search.png"),
-      link: "https://github.com/milnershay/WikiSearchEngine",
-    },
-    {
-      title: "Automatic Moodle testing",
-      subtitle: "Cucumber & Provengo",
-      description:
-        "Tested an open-source software (moodle) using both Cucumber and Provengo",
-      image: require("./images/qa.png"),
-      link: "https://github.com/milnershay/sqe-hw3",
-    },
-  ];
+  {
+    title: "Enterprise Tax Automation System",
+    subtitle: "C#, .NET 8, ASP.NET Core, EF Core, SQL, REST APIs",
+    description:
+      "At SUMMA, I engineered a high-performance backend system that automates the parsing and ingestion of complex financial data from Excel into a secure SaaS platform for major international accounting firms, reducing manual labor and increasing data accuracy.",
+    image: require("./images/search.png"), // Placeholder image
+    link: "https://github.com/milnershay", // Placeholder link
+  },
+  {
+    title: "Vibe2D - AI-Powered Game Generation",
+    subtitle: "Godot, GDScript, Python, Generative AI, Agent-Based Automation",
+    description:
+      "Vibe2D is my exploration into the future of creative tooling. It's an agent-based system I'm building that aims to automatically generate entire 2D games—including sprites, music, and GDScript—using generative AI.",
+    image: require("./images/potter.gif"), // Placeholder image
+    link: "https://github.com/milnershay", // Placeholder link
+  },
+  {
+    title: "U.S. Congressional Disclosures ETL Pipeline",
+    subtitle: "Python, ETL Architecture, XML & PDF Parsing, OCR, SQL",
+    description:
+      "To make public financial data more accessible, I am building a robust ETL system to process U.S. congressional financial disclosures. The pipeline is designed to handle messy, large-scale data by parsing varied formats like XML and PDF.",
+    image: require("./images/qa.png"), // Placeholder image
+    link: "https://github.com/milnershay", // Placeholder link
+  },
+  {
+    title: "Legacy System Modernization",
+    subtitle: ".NET, C#, SQL Server, API Design, System Architecture",
+    description:
+      "I led critical improvements to a legacy client management system by re-architecting a faulty document signature module and implementing a more secure, fine-grained user permissions API to improve system stability and security.",
+    image: require("./images/soduko.PNG"), // Placeholder image
+    link: "https://github.com/milnershay", // Placeholder link
+  },
+];
 
   export const certificates = [
     {
@@ -82,24 +66,28 @@ export const projects = [
   ];
 
   export const skills = [
-    "Java",
-    "Python",
-    "JavaScript & Node.js",
+    // Backend
     "C#",
-    "R Language",
+    ".NET 8",
+    "SQL",
+    "EF Core",
+    "REST APIs",
+    "Python",
+    "Node.js",
+    // Data/Automation
+    "ETL Architecture",
+    "Excel Integration",
+    "XML/PDF Parsing",
+    // AI & Agents
+    "Agent-Based Automation",
+    "Generative AI",
+    // Game Dev
+    "Godot",
+    "GDScript",
+    // Foundational
+    "JavaScript",
+    "React",
     "HTML & CSS",
-    "React & React Native",
-    "Vue.js",
-    "Express.js",
-    "MySQL",
-    "MongoDB",
-    "Firebase",
-    "REST API",
-    "React Native",
-    "Flask",
-    "OpenCV",
-    "PySpark",
-    "NumPy, pandas & SciKit-Learn",
-    "Selenium",
     "Git",
+    "Docker",
   ];
