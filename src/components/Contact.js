@@ -19,15 +19,15 @@ export default function Contact() {
             marginHeight={0}
             marginWidth={0}
             style={{ filter: "grayscale(1) contrast(1.2) opacity(0.2)" }}
-            src="https://www.google.com/maps/embed/v1/place?q=Beer-Sheva,+Israel&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+            src="https://www.google.com/maps/embed/v1/place?q=Giv'atayim,+Israel&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
           <div className="bg-dark-bg relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
               <h2 className="font-semibold text-light-text tracking-widest text-xs">
                 ADDRESS
               </h2>
-              <p className="mt-1">
-                Beer Sheva, Israel
+              <p className="mt-1 text-light-text">
+                Giv'atayim, Israel
               </p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">

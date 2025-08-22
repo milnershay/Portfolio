@@ -1,5 +1,6 @@
 import { ArrowRightIcon } from "@heroicons/react/solid";
 import React from "react";
+import GithubIcon from "./GithubIcon";
 
 export default function Navbar() {
   return (
@@ -21,12 +22,17 @@ export default function Navbar() {
             Certificates
           </a>
         </nav>
-        <a
-          href="#contact"
-          className="inline-flex items-center bg-primary border-0 py-1 px-3 focus:outline-none hover:bg-blue-400 rounded text-base mt-4 md:mt-0">
-          Hire Me
-          <ArrowRightIcon className="w-4 h-4 ml-1" />
-        </a>
+        <div className="inline-flex items-center">
+            <a
+            href="#contact"
+            className="inline-flex items-center bg-primary border-0 py-1 px-3 focus:outline-none hover:bg-blue-400 rounded text-base mt-4 md:mt-0">
+            Hire Me
+            <ArrowRightIcon className="w-4 h-4 ml-1" />
+            </a>
+            <a href="https://github.com/milnershay" target="_blank" rel="noopener noreferrer" className="ml-4 inline-flex items-center text-light-text hover:text-primary">
+                <GithubIcon className="w-6 h-6" />
+            </a>
+        </div>
       </div>
     </header>
   );
